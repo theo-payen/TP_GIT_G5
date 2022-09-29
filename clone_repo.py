@@ -1,2 +1,5 @@
 import dload
-dload.git_clone("https://github.com/KeligMartin/4-SRC.git")
+
+
+def clone(url):
+    dload.git_clone(url)
