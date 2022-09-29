@@ -50,10 +50,14 @@ Ce deuxième script permet de cloner un répot depuis github.
 Ce troisième script permet d'avoir une interface utilisateur avec les deux scripts  pour la gestion des scripts
 
 
+### Workflow
 
+Nous avons choisi GitFlow 
+- validation du code 
+- test avant la mise en prod
+- Mise en propre du code avant la publication 
+- Permet de travailler sur le même projet via des branches 
+- Branch Main --> Production
+- Branch Secondaire --> Pré-prod validation
+- Branch Feature --> branch indivuelle 
 
-
-
-
-
- 
