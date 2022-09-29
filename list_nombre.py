@@ -1,8 +1,6 @@
 #script pour le TP GIT 
 #il doit afficher la liste des nombres premiers 
 #acteurs @mohamed, @theo, @mukil 
-
-
 def nombrepremier(n) :
     if n <= 1 :
         return False
@@ -17,4 +15,3 @@ def compteurNb(min, max):
         min = min + 1
         if nombrepremier(min) == True:
             print (min)
-
